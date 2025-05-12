@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.companyname.TravelMore</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <AndroidUseAndroidX>true</AndroidUseAndroidX>
+<AndroidEnableJetifier>true</AndroidEnableJetifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="images\TravelMore-03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0" />
+    <PackageReference Include="Xamarin.AndroidX.Core" Version="1.13.0" />
+  </ItemGroup>
+</Project>
