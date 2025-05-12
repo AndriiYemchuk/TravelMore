@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffffff">
+
+			<TextView
+			android:text="Plan your trip"
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginTop="40dp"
+/>
+
+<ImageView
+			android:layout_width="30.0dp"
+			android:layout_height="32.5dp"
+			android:id="@+id/back"
+			android:src="@drawable/arrow"
+			android:clickable="true"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="45dp" 
+/>
+
+				<TextView
+			android:text="Choose the dates of your trip!"
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="20dp"
+			android:layout_marginTop="90dp"
+/>
+
+	<ImageView
+		android:layout_width="412.4dp"
+		android:layout_height="43.6dp"
+		android:src="@drawable/progress1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="140dp" 
+/>
+	<ImageView
+		android:layout_width="38.0dp"
+		android:layout_height="19.2dp"
+		android:src="@drawable/arrow1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="200dp" 
+/>
+
+	<Spinner
+    android:id="@+id/from"
+	android:background="@drawable/spinner"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="200dp"
+	android:layout_marginLeft="20dp"
+    android:spinnerMode="dropdown"
+		/>
+		<Spinner
+    android:id="@+id/to"
+	android:background="@drawable/spinner"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="200dp"
+	android:layout_marginLeft="223dp"
+    android:spinnerMode="dropdown"
+		/>
+	<TextView
+		android:id="@+id/departure"
+		android:text="select departure date.."
+		android:layout_width="190.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_marginLeft="26dp"
+		android:textSize="15dp"
+		android:layout_marginTop="247dp"
+/>
+		<ImageView
+		android:layout_width="38.0dp"
+		android:layout_height="19.2dp"
+		android:src="@drawable/arrow1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="250dp" 
+/>
+	<TextView
+		android:id="@+id/arrival"
+		android:text="select return date.."
+		android:layout_width="190.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_marginLeft="240dp"
+		android:textSize="15dp"
+		android:layout_marginTop="247dp"
+/>
+				<TextView
+			android:text="From:"
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginTop="300dp"
+/>
+					<TextView
+				android:id="@+id/dateofstart"
+			android:text=""
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:layout_marginTop="370dp"
+/>
+					<TextView
+			android:text="To:"
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginTop="450dp"
+/>
+						<TextView
+		android:id="@+id/dateofreturn"
+			android:text=""
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:layout_marginTop="520dp"
+/>
+
+		<Button
+		android:id="@+id/next_page"
+		android:text="Next"
+		android:layout_width="273.0dp"
+		android:layout_height="42.0dp"
+		android:layout_marginTop="640dp"
+	    android:layout_centerHorizontal="true"
+		android:textColor="#ff000000"
+		android:background="@drawable/button_border"
+/>
+
+</RelativeLayout>

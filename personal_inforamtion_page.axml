@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffffff">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="1900dp"
+		android:orientation="vertical"
+		android:padding="16dp">
+		<ImageView
+			android:layout_width="30.0dp"
+			android:layout_height="32.5dp"
+			android:id="@+id/back"
+			android:src="@drawable/arrow"
+			android:clickable="true"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="18dp" 
+/>
+		<TextView
+			android:id="@+id/destination_text"
+			android:text="Personal information"
+			android:layout_width="377.2dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="27dp"
+			android:textStyle="bold"
+			android:layout_marginTop="-36dp"
+/>
+
+	<TextView
+			android:text="Number of travelers"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="40dp"
+/>
+	<Spinner
+    android:id="@+id/travelers"
+	android:background="@drawable/spinner"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+	android:layout_marginLeft="30dp"
+    android:spinnerMode="dropdown"
+		/>
+
+		<TextView
+			android:text="Information of the 1st traveler"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="40dp"
+/>
+		<TextView
+			android:id="@+id/star1"
+			android:text="This must fill this information*"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="#ffc42020"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="-10dp"
+/>
+
+		<EditText
+			android:id="@+id/nameinput"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Name"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="-15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+				<EditText
+			android:id="@+id/surnameinput"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Surname"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+		<TextView
+			android:id="@+id/text2"
+			android:text="Information of the 2nd traveler"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="40dp"
+			android:enabled="false"
+/>
+				<TextView
+			android:id="@+id/star2"
+			android:text="This must fill this information*"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="#ffc42020"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="-10dp"
+/>
+
+		<EditText
+			android:id="@+id/nameinput2"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Name"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="-15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+				<EditText
+			android:id="@+id/surnameinput2"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Surname"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+		<TextView
+			android:id="@+id/text3"
+			android:text="Information of the 3rd traveler"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="40dp"
+			android:enabled="false"
+/>
+			<TextView
+			android:id="@+id/star3"
+			android:text="This must fill this information*"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="#ffc42020"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="-10dp"
+/>
+
+		<EditText
+			android:id="@+id/nameinput3"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Name"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="-15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+				<EditText
+			android:id="@+id/surnameinput3"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Surname"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+		<TextView
+			android:id="@+id/text4"
+			android:text="Information of the 4th traveler"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="40dp"
+			android:enabled="false"
+/>
+		  <TextView
+			android:id="@+id/star4"
+			android:text="This must fill this information*"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="#ffc42020"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="-10dp"
+/>
+
+		<EditText
+			android:id="@+id/nameinput4"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Name"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="-15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+				<EditText
+			android:id="@+id/surnameinput4"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Surname"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+		<TextView
+			android:id="@+id/text5"
+			android:text="Information of the 5th traveler"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="40dp"
+			android:enabled="false"
+/>
+			<TextView
+			android:id="@+id/star5"
+			android:text="This must fill this information*"
+			android:layout_width="396.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="#ffc42020"
+			android:textSize="18dp"
+			android:layout_marginLeft="30dp"
+			android:layout_marginTop="-10dp"
+/>
+
+		<EditText
+			android:id="@+id/nameinput5"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Name"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="-15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+				<EditText
+			android:id="@+id/surnameinput5"
+		android:layout_width="307.0dp"
+		android:layout_height="47.0dp"
+		android:hint="Surname"
+		android:textColorHint="@android:color/black"
+		android:textSize="14dp"
+		android:paddingLeft="13dp"
+		android:inputType="text"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="15dp"
+						android:layout_marginLeft="25dp"
+		android:maxLength="19"
+		android:background="@drawable/edittext_border"
+		/>
+
+
+		<Button
+		android:id="@+id/next_page"
+		android:text="Next"
+		android:layout_width="273.0dp"
+		android:layout_height="42.0dp"
+		android:layout_marginTop="40dp"
+		android:layout_marginLeft="40dp"
+		android:textColor="#ff000000"
+		android:background="@drawable/button_border"
+/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffffff">
+
+	<ImageView
+		android:id="@+id/profile_button"
+		android:layout_width="123.5dp"
+		android:layout_height="174.0dp"
+		android:src="@drawable/avatar"
+		android:layout_marginTop="10dp"
+		android:clickable="true"
+		android:layout_marginLeft="60dp" 
+		/>
+
+		<ImageView
+		android:layout_width="30.0dp"
+		android:layout_height="32.5dp"
+		android:id="@+id/backButton"
+		android:src="@drawable/arrow"
+		android:clickable="true"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="25dp" 
+		/>
+
+	<TextView
+		android:id="@+id/name_text"
+		android:layout_width="331.5dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_centerVertical="false"
+		android:textAlignment="textStart"
+		android:textSize="35dp"
+		android:textStyle="bold"
+		android:layout_marginTop="50dp"
+		android:layout_marginLeft="200dp" 
+		/>
+
+	<TextView
+		android:id="@+id/saved_trips"
+		android:text="Saved trips"
+		android:layout_width="331.5dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_centerVertical="false"
+		android:textAlignment="textStart"
+		android:textSize="25dp"
+		android:textStyle="bold"
+		android:layout_marginTop="200dp"
+		android:layout_marginLeft="70dp"
+		android:clickable="true" 
+		/>
+
+		<ImageView
+		android:layout_width="30.0dp"
+		android:layout_height="32.5dp"
+		android:src="@drawable/saved"
+		android:clickable="true"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="202dp" 
+		/>
+
+			<TextView
+		android:id="@+id/future_trips"
+		android:text="Future trips"
+		android:layout_width="331.5dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_centerVertical="false"
+		android:textAlignment="textStart"
+		android:textSize="25dp"
+		android:textStyle="bold"
+		android:layout_marginTop="280dp"
+		android:layout_marginLeft="70dp" 
+		/>
+
+		<ImageView
+		android:layout_width="30.0dp"
+		android:layout_height="32.5dp"
+		android:src="@drawable/future"
+		android:clickable="true"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="282dp" 
+		/>
+
+	<TextView
+		android:id="@+id/about_app"
+		android:text="About app"
+		android:layout_width="331.5dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_centerVertical="false"
+		android:textAlignment="textStart"
+		android:textSize="25dp"
+		android:textStyle="bold"
+		android:layout_marginTop="360dp"
+		android:layout_marginLeft="70dp" 
+		/>
+
+			<ImageView
+		android:layout_width="30.0dp"
+		android:layout_height="32.5dp"
+		android:src="@drawable/info"
+		android:clickable="true"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="362dp" 
+		/>
+
+	<TextView
+		android:id="@+id/logout"
+		android:text="Log out"
+		android:layout_width="331.5dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_centerVertical="false"
+		android:textAlignment="textStart"
+		android:textSize="25dp"
+		android:textStyle="bold"
+		android:layout_marginTop="440dp"
+		android:layout_marginLeft="70dp"
+		android:clickable="true" 
+		/>
+
+			<ImageView
+		android:layout_width="30.0dp"
+		android:layout_height="32.5dp"
+		android:src="@drawable/account"
+		android:clickable="true"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="442dp" 
+		/>
+
+	<TextView
+		android:id="@+id/delete_account"
+		android:text="Delete account"
+		android:layout_width="331.5dp"
+		android:layout_height="54.5dp"
+		android:textColor="#ffcb4646"
+		android:layout_centerVertical="false"
+		android:textAlignment="textStart"
+		android:textSize="25dp"
+		android:textStyle="bold"
+		android:layout_marginTop="520dp"
+		android:layout_marginLeft="70dp"
+		android:clickable="true" 
+		/>
+
+<ImageView
+		android:layout_width="30.0dp"
+		android:layout_height="30.5dp"
+		android:src="@drawable/delete"
+		android:clickable="true"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="522dp" 
+		/>
+
+		<TextView
+		android:layout_width="274.5dp"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="Made by Andrii Yemchuk in 2025., Kyiv Ukraine"
+		android:layout_alignParentBottom="true"
+		android:paddingBottom="10px"
+		android:textAlignment="center" 
+    />
+</RelativeLayout>
