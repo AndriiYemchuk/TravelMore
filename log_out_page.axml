@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="900dp"
+	android:background="#ffffffff">
+
+		<ImageView
+		android:layout_width="155.0dp"
+		android:layout_height="41.0dp"
+		android:src="@drawable/logo"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="16dp" 
+/>
+
+	<TextView
+		android:text="Are you sure you want to log out?"
+		android:textColor="@android:color/background_dark"
+		android:layout_width="324.0dp"
+		android:layout_height="78.0dp"
+		android:textSize="26dp"
+		android:textStyle="bold"
+		android:layout_marginTop="260dp"
+		android:layout_marginLeft="30.0dp"
+		android:layout_centerHorizontal="true"
+		android:textAlignment="center" 
+/>
+	<Button
+		android:id="@+id/NoButton"
+		android:layout_width="134.4dp"
+		android:layout_height="42.0dp"
+		android:layout_marginLeft="50.0dp"
+		android:layout_marginTop="420dp"
+		android:background="@drawable/button_border2"
+		android:textColor="#ffebcc08"
+		android:textStyle="bold"
+		android:text="No"
+		android:forceHasOverlappingRendering="false"
+		android:drawableBottom="#ff000000"
+		/>
+
+	<Button
+		android:id="@+id/YesButton"
+		android:layout_width="134.4dp"
+		android:layout_height="42.0dp"
+		android:layout_marginLeft="215.0dp"
+		android:layout_marginTop="420dp"
+		android:background="@drawable/button_border"
+		android:textColor="#ff000000"
+		android:textStyle="normal"
+		android:text="Yes"
+		android:forceHasOverlappingRendering="false"
+		android:requiresFadingEdge="none"
+		/>
+</RelativeLayout>

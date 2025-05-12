@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="820dp"
+	android:background="#ffffffff">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="30dp"
+		android:orientation="vertical"
+		android:padding="16dp">>
+
+	<ImageView
+		android:layout_width="155.0dp"
+		android:layout_height="41.0dp"
+		android:src="@drawable/logo"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="100dp"
+/>
+	<ImageView
+		android:id="@+id/profile_button"
+		android:layout_width="69.0dp"
+		android:layout_height="50.5dp"
+		android:src="@drawable/avatar"
+		android:layout_marginTop="-44dp"
+		android:layout_marginLeft="300dp"
+		android:clickable="true" 
+		/>
+
+
+	<TextView
+		android:id="@+id/Welcome_text"
+		android:layout_width="331.5dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_centerVertical="false"
+		android:textAlignment="textStart"
+		android:textSize="25dp"
+		android:textStyle="bold"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="40dp"
+		/>
+
+	<TextView
+		android:text="Take a look on new destinations recommended for you"
+		android:textColor="@android:color/background_dark"
+		android:layout_width="324.0dp"
+		android:layout_height="56.0dp"
+		android:textSize="13dp"
+					android:layout_marginLeft="10dp"
+		android:layout_marginTop="3dp"
+		/>
+
+
+	<Button
+		android:id="@+id/destination_Button"
+		android:layout_width="150.5dp"
+		android:layout_height="55.0dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="1dp"
+		android:background="@drawable/button_border2"
+		android:textColor="#ffebcc08"
+		android:textStyle="bold"
+		android:text="Destinations"
+		android:forceHasOverlappingRendering="false"
+		android:drawableBottom="#ff000000"
+/>
+<Button
+		android:id="@+id/ticket_Button"
+		android:layout_width="150.5dp"
+		android:layout_height="55.0dp"
+		android:layout_marginLeft="190.0dp"
+		android:layout_marginTop="-55dp"
+		android:background="@drawable/button_border2"
+		android:textColor="#ffebcc08"
+		android:textStyle="bold"
+		android:text="Tickets"
+		android:forceHasOverlappingRendering="false"
+		android:drawableBottom="#ff000000"
+/>
+
+<TextView
+		android:text="Recommended for you:"
+		android:textColor="@android:color/background_dark"
+		android:layout_width="324.0dp"
+		android:layout_height="56.0dp"
+		android:textSize="26dp"
+	    android:textStyle="bold"
+		android:layout_marginTop="30dp"
+		android:layout_marginLeft="10.0dp"
+/>
+
+		<ImageView
+			android:layout_width="408.0dp"
+			android:layout_height="168.0dp"
+			android:src="@drawable/fivedaysinindia"
+			android:layout_marginTop="5dp"
+			android:layout_marginLeft="-40dp"
+/>
+		<Button
+			android:id="@+id/india_Button"
+			android:layout_width="132.4dp"
+			android:layout_height="37.6dp"
+			android:layout_marginLeft="167dp"
+			android:layout_marginTop="-61dp"
+			android:textStyle="bold"
+			android:background="@android:color/transparent" 
+/>
+	<ImageView
+		android:id="@+id/days_in_india"
+		android:layout_width="64.8dp"
+		android:layout_height="22.0dp"
+		android:src="@drawable/saved"
+		android:layout_marginLeft="290dp"
+		android:layout_marginTop="-28dp"
+		android:clickable="true" 
+		/>
+				<ImageView
+			android:layout_width="408.0dp"
+			android:layout_height="168.0dp"
+			android:src="@drawable/aweekinegypt"
+			android:layout_marginTop="30dp"
+			android:layout_marginLeft="-40dp"
+/>
+		<Button
+			android:id="@+id/egypt"
+			android:layout_width="132.4dp"
+			android:layout_height="37.6dp"
+			android:layout_marginLeft="167dp"
+			android:layout_marginTop="-61dp"
+			android:textStyle="bold"
+			android:background="@android:color/transparent" 
+/>
+	<ImageView
+		android:id="@+id/week_in_egypt"
+		android:layout_width="64.8dp"
+		android:layout_height="22.0dp"
+		android:src="@drawable/saved"
+		android:layout_marginLeft="290dp"
+		android:layout_marginTop="-28dp"
+		android:clickable="true" 
+		/>
+						<ImageView
+			android:layout_width="408.0dp"
+			android:layout_height="168.0dp"
+			android:src="@drawable/fairytalecities"
+			android:layout_marginTop="30dp"
+			android:layout_marginLeft="-40dp"
+/>
+		<Button
+			android:id="@+id/fairytalebutton"
+			android:layout_width="132.4dp"
+			android:layout_height="37.6dp"
+			android:layout_marginLeft="167dp"
+			android:layout_marginTop="-61dp"
+			android:textStyle="bold"
+			android:background="@android:color/transparent" 
+/>
+	<ImageView
+		android:id="@+id/fairytale_cities"
+		android:layout_width="64.8dp"
+		android:layout_height="22.0dp"
+		android:src="@drawable/saved"
+		android:layout_marginLeft="290dp"
+		android:layout_marginTop="-28dp"
+		android:clickable="true" 
+		/>
+		<Button
+		android:id="@+id/more_tours"
+		android:layout_width="150.5dp"
+		android:layout_height="55.0dp"
+		android:layout_marginLeft="10.0dp"
+		android:layout_marginTop="35dp"
+		android:background="@drawable/button_border2"
+		android:textColor="#ffebcc08"
+		android:textStyle="bold"
+		android:text="See all tours"
+		android:forceHasOverlappingRendering="false"
+		android:drawableBottom="#ff000000"
+/>
+							<TextView
+		android:layout_width="274.5dp"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="Made by Andrii Yemchuk in 2025., Kyiv Ukraine"
+		android:layout_alignParentBottom="true"
+		android:paddingTop="40dp"
+					android:layout_marginLeft="40dp"
+		android:textAlignment="center" 
+    />
+	</LinearLayout>
+
+</ScrollView>

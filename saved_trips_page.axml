@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffffff">
+
+
+<ImageView
+		android:layout_width="30.0dp"
+		android:layout_height="32.5dp"
+		android:id="@+id/backButton"
+		android:src="@drawable/arrow"
+		android:clickable="true"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="25dp" 
+/>
+		<TextView
+		android:text="Saved trips"
+		android:layout_width="384.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_centerHorizontal="true"
+		android:textAlignment="center"
+		android:textSize="30dp"
+		android:textStyle="bold"
+		android:layout_marginTop="20dp"
+/>
+	<ImageView
+		android:layout_width="133.2dp"
+		android:layout_height="152.8dp"
+		android:src="@drawable/saved"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="202dp"
+		android:layout_centerHorizontal="true"
+		/>
+	<TextView
+		android:text="You don't have any saved trips for now!"
+		android:layout_width="334.4dp"
+		android:layout_height="125.6dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_centerHorizontal="true"
+		android:textAlignment="center"
+		android:textSize="20dp"
+		android:layout_marginTop="400dp"
+/>
+</RelativeLayout>

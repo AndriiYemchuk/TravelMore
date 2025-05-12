@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffffff">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="1900dp"
+		android:orientation="vertical"
+		android:padding="16dp">
+		<ImageView
+			android:layout_width="30.0dp"
+			android:layout_height="32.5dp"
+			android:id="@+id/back"
+			android:src="@drawable/arrow"
+			android:clickable="true"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="18dp" 
+/>
+				<TextView
+			android:text="Details of tour"
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginTop="-36dp"
+/>
+		<ImageView
+			android:layout_width="369.6dp"
+			android:layout_height="252.0dp"
+			android:id="@+id/image"
+			android:src="@drawable/india"
+			android:clickable="true"
+			android:layout_marginLeft="-5dp"
+			android:layout_marginTop="10dp" 
+/>
+		<TextView
+			android:id="@+id/destination_text"
+			android:text="Details of tour"
+			android:layout_width="366.8dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginTop="16dp"
+/>
+		<TextView
+			android:id="@+id/description"
+			android:text="European fairytale cities enchant visitors with their cobblestone streets, medieval architecture, and storybook charm. Places like Prague, with its gothic spires and historic bridges, or Bruges, known for its winding canals and quaint squares, feel like stepping into a different era. Rothenburg ob der Tauber in Germany captivates with timber-framed houses and preserved city walls, while Colmar in France delights with colorful buildings and flower-lined canals. These magical towns offer a dreamy escape straight out of a fairytale."
+			android:layout_width="351.6dp"
+			android:layout_height="229.6dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="15dp"
+			android:layout_marginTop="6dp"
+			android:layout_marginLeft="5dp"
+/>
+			<TextView
+			android:text="When?"
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginLeft="35dp"
+			android:layout_marginTop="16dp"
+/>
+		<TextView
+			android:id="@+id/dates"
+			android:text="10 May - 15 June"
+			android:layout_width="306.0dp"
+			android:layout_height="42.4dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="20dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginTop="-4dp"
+/>
+			<TextView
+			android:text="Where to stay?"
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginLeft="35dp"
+			android:layout_marginTop="16dp"
+/>
+		<TextView
+			android:id="@+id/hotelInfo"
+			android:text="You are staying at"
+			android:layout_width="306.0dp"
+			android:layout_height="134.0dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="20dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginTop="-4dp"
+/>
+			<TextView
+			android:text="What is included?"
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginLeft="35dp"
+			android:layout_marginTop="16dp"
+/>
+		  <TextView
+			android:id="@+id/includedinfo"
+			android:text="Transfer both ways, All inclusive hotel, breakfest, dinner, wi-fi, private room"
+			android:layout_width="306.0dp"
+			android:layout_height="134.0dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="20dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginTop="-4dp"
+/>
+		<TextView
+			android:id="@+id/price"
+			android:text="Price 3000$ (including Tax)"
+			android:layout_width="317.6dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textSize="20dp"
+			android:textStyle="bold"
+			android:layout_marginLeft="35dp"
+			android:layout_marginTop="16dp"
+/>
+				<Button
+		android:id="@+id/next_page"
+		android:text="Book now"
+		android:layout_width="273.0dp"
+		android:layout_height="42.0dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="40dp"
+		android:textColor="#ff000000"
+		android:background="@drawable/button_border"
+/>
+</LinearLayout>
+</ScrollView>

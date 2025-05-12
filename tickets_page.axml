@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffffff">
+<LinearLayout
+		android:id="@+id/ticketcontainer"
+    android:layout_width="match_parent"
+    android:layout_height="1900dp"
+	android:orientation="vertical"
+	android:padding="16dp">
+
+				<ImageView
+			android:layout_width="30.0dp"
+			android:layout_height="32.5dp"
+			android:id="@+id/back"
+			android:src="@drawable/arrow"
+			android:clickable="true"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="18dp" 
+/>
+				<TextView
+			android:text="Tickets"
+			android:layout_width="372.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginTop="-36dp"
+/>
+
+		<TextView
+		   android:id="@+id/tickets_counter"
+			android:text="Your tickets: "
+			android:layout_width="207.2dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginTop="46dp"
+/>
+		<ImageView
+			android:id="@+id/ticketicon"
+			android:layout_width="133.2dp"
+			android:layout_height="152.8dp"
+			android:src="@drawable/ticktes"
+			android:layout_marginLeft="110dp"
+			android:layout_marginTop="130dp"
+			android:layout_centerHorizontal="true"
+		/>
+	<TextView
+		android:id="@+id/text1"
+		android:text="You don't have any tickets!"
+		android:layout_width="334.4dp"
+		android:layout_height="125.6dp"
+		android:textColor="@android:color/background_dark"
+		android:textAlignment="center"
+		android:textSize="20dp"
+		android:layout_marginTop="40dp"
+		android:layout_marginLeft="10dp"
+/>
+
+</LinearLayout>
+</ScrollView>

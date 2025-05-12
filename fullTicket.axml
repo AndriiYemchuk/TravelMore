@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="600dp"
+	android:background="#ffffffff">
+
+
+<ImageView
+		android:layout_width="30.0dp"
+		android:layout_height="32.5dp"
+		android:id="@+id/backButton"
+		android:src="@drawable/arrow"
+		android:onClick="GoBack"
+		android:clickable="true"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="25dp" 
+/>
+		<TextView
+		android:text="Your ticket"
+		android:layout_width="384.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:layout_centerHorizontal="true"
+		android:textAlignment="center"
+		android:textSize="30dp"
+		android:textStyle="bold"
+		android:layout_marginTop="20dp"
+/>
+	<ImageView
+		android:layout_width="418.4dp"
+		android:layout_height="536.8dp"
+		android:src="@drawable/ticketfull"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="62dp"
+		android:layout_centerHorizontal="true"
+		/>
+</RelativeLayout>

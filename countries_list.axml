@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffffff">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="1900dp"
+		android:orientation="vertical"
+		android:padding="16dp">>
+
+		<TextView
+			android:id="@+id/destination_text"
+			android:text="Countries in Europe"
+			android:layout_width="384.0dp"
+			android:layout_height="54.5dp"
+			android:textColor="@android:color/background_dark"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:textSize="30dp"
+			android:textStyle="bold"
+			android:layout_marginTop="20dp"
+/>
+
+		<ImageView
+			android:layout_width="30.0dp"
+			android:layout_height="32.5dp"
+			android:id="@+id/back"
+			android:src="@drawable/arrow"
+			android:clickable="true"
+			android:layout_marginLeft="15dp"
+			android:layout_marginTop="-50dp" 
+/>
+
+				<TextView
+			android:id="@+id/text1"
+		android:text="Germany"
+		android:layout_width="384.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:textSize="30dp"
+		android:textStyle="bold"
+				android:layout_marginLeft="30dp"
+		android:layout_marginTop="80dp"/>
+	<ImageView
+		android:id="@+id/image1"
+		android:layout_width="337.0dp"
+		android:layout_height="195.0dp"
+		android:src="@drawable/Europe"
+		android:clickable="true"
+		android:layout_marginLeft="12dp"
+		android:layout_marginTop="0dp"/>
+
+
+<TextView
+				android:id="@+id/text2"
+		android:text="France"
+		android:layout_width="384.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:textSize="30dp"
+		android:textStyle="bold"
+				android:layout_marginLeft="30dp"
+		android:layout_marginTop="10dp"/>
+
+	<ImageView
+		android:id="@+id/image2"
+		android:layout_width="337.0dp"
+		android:layout_height="195.0dp"
+		android:src="@drawable/Africa"
+		android:clickable="true"
+		android:layout_marginLeft="12dp"
+		android:layout_marginTop="5dp"/>
+
+			<TextView
+				android:id="@+id/text3"
+		android:text="Italy"
+		android:layout_width="384.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:textSize="30dp"
+		android:textStyle="bold"
+				android:layout_marginLeft="30dp"
+		android:layout_marginTop="10dp"/>
+
+		<ImageView
+		android:id="@+id/image3"
+		android:layout_width="337.0dp"
+		android:layout_height="195.0dp"
+		android:src="@drawable/Asia"
+		android:clickable="true"
+		android:layout_marginLeft="12dp"
+		android:layout_marginTop="5dp"/>
+
+		<TextView
+				android:id="@+id/text4"
+		android:text="Spain"
+		android:layout_width="384.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:textSize="30dp"
+		android:textStyle="bold"
+		android:layout_marginLeft="30dp"
+		android:layout_marginTop="10dp"/>
+
+		<ImageView
+		android:id="@+id/image4"
+		android:layout_width="337.0dp"
+		android:layout_height="195.0dp"
+		android:src="@drawable/northamerica"
+		android:clickable="true"
+		android:layout_marginLeft="12dp"
+		android:layout_marginTop="5dp"/>
+
+	  <TextView
+				android:id="@+id/text5"
+		android:text="United Kingdom"
+		android:layout_width="384.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:textSize="30dp"
+		android:textStyle="bold"
+		android:layout_marginLeft="30dp"
+		android:layout_marginTop="10dp"/>
+
+		<ImageView
+		android:id="@+id/image5"
+		android:layout_width="337.0dp"
+		android:layout_height="195.0dp"
+		android:src="@drawable/southamerica"
+		android:clickable="true"
+		android:layout_marginLeft="12dp"
+		android:layout_marginTop="5dp"/>
+
+	  <TextView
+				android:id="@+id/text6"
+		android:text="Czech Republic"
+		android:layout_width="384.0dp"
+		android:layout_height="54.5dp"
+		android:textColor="@android:color/background_dark"
+		android:textSize="30dp"
+		android:textStyle="bold"
+		android:layout_marginLeft="30dp"
+		android:layout_marginTop="10dp"/>
+
+		<ImageView
+		android:id="@+id/image6"
+		android:layout_width="337.0dp"
+		android:layout_height="195.0dp"
+		android:src="@drawable/oceania"
+		android:clickable="true"
+		android:layout_marginLeft="12dp"
+		android:layout_marginTop="5dp"/>
+
+					<TextView
+		android:layout_width="274.5dp"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="Made by Andrii Yemchuk in 2025., Kyiv Ukraine"
+		android:layout_alignParentBottom="true"
+		android:paddingTop="20dp"
+					android:layout_marginLeft="40dp"
+		android:textAlignment="center" 
+    />
+	</LinearLayout>
+
+</ScrollView>
